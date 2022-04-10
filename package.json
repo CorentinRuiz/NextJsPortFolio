@@ -1,0 +1,31 @@
+{
+  "name": "NextJsPortFolio",
+  "version": "1.0.0",
+  "description": "Corentin's portfolio",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "keywords": [],
+  "author": "Corentin Ruiz",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.3",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^4.1.17",
+    "next": "^12.0.7",
+    "next-optimized-images": "^2.6.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-next": "^12.0.7",
+    "prettier": "^2.5.1"
+  }
+}
