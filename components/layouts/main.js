@@ -1,6 +1,7 @@
 import Head from "next/head";
 import NavBar from "../navbar"
 import { Box, Container } from "@chakra-ui/react";
+import 'react-photo-view/dist/react-photo-view.css';
 
 const Main = ({ children, router }) =>
 {
