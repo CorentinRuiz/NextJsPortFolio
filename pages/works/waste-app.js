@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="TousAntiGaspi">
     <Container>
       <Title>
-        Tous Anti Gaspi<Badge>2022-</Badge>
+        Tous Anti Gaspi<Badge>2022</Badge>
       </Title>
       <P> 
         An android app to manage all the food in your house !
