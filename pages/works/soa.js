@@ -24,7 +24,6 @@ const Work = () => (
           <span>Nest JS, Kafka, K6, Redis, PostgreSQL, Docker</span>
         </ListItem>
       </List>
-      <WorkImage src="/images/works/soa.png" alt="SOA" />
       <WorkImage src="/images/works/SOA/soa-archi.png" alt="SOA-Diag-archi" />
     </Container>
   </Layout>

@@ -9,6 +9,9 @@ import thumbPassAndSafe from '../public/images/works/pass-and-safe.png'
 import thumbSomeJava from '../public/images/works/some-java.png'
 import thumbTousAntiGaspi from '../public/images/works/tous-anti-gaspi.png'
 import thumbYouYou from '../public/images/works/youyou.png'
+import thumbAL from '../public/images/works/al.png'
+import thumbK8S from '../public/images/works/k8s.png'
+import thumbRiml from '../public/images/works/riml.jpeg'
 
 const Works = () => (
   <Container>
@@ -26,6 +29,22 @@ const Works = () => (
       <Section>
         <WorkGridItem id="poly-snap" title="Poly Snap" thumbnail={thumbSnap}>
           Creation of a simplified Snapchat replica as a cloud-native application on Google Cloud Platform.
+        </WorkGridItem>
+      </Section>
+      <Section>
+        <WorkGridItem id="al" title="Investment Bank" thumbnail={thumbAL}>
+        Creation of an architecture for an investment bank aiming to enable its clients to conduct transactions in the Cayman Islands.
+        </WorkGridItem>
+      </Section>
+      <Section>
+        <WorkGridItem id="k8s" title="Poly metrie" thumbnail={thumbK8S}>
+        Creation of a very simplified copy of mediametrie API to learn k8s, IaC, GitOps, Prometheus, Grafana.
+        </WorkGridItem>
+      </Section>
+      <Section>
+        <WorkGridItem id="riml" title="RIML Project" thumbnail={thumbRiml}>
+        Creation of a project analyze tools to detect good practices in a microservices architecture. 
+        It was for the course of Re-engineering and maintenance of software.
         </WorkGridItem>
       </Section>
     </SimpleGrid>
